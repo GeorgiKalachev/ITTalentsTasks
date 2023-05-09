@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="015aa46f-1d46-4d9e-922c-80c63f43e9d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ITTalents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3/Task_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Figures/Fig11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Figures/Fig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Figures/Fig7b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Patern41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern57.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern59.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3_Patterns/Pattern9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FirstLessons01/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_1/Task_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_11Extra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_2/Task_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_3_Arrays/Homework9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_4_Tasks/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Lesson_5_String_Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5_String_Methods/Task9hard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/CheckTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/CheckTask3Recurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/FibonachiRecurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7_Algorythms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods_Recursion_6/Recurse1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods_Recursion_6/Task1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods_Recursion_6/Task2Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2IMNopQxlgNXcoFY7toBeiiAePY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/IdeaProjects/ProjectFootball/src/ProjectFootball.java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_7_Algorythms.BinarySearch" />
+      <module name="ITTalents" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_7_Algorythms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_7_Algorythms.CountingSort" />
+      <module name="ITTalents" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_7_Algorythms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_7_Algorythms.QuickSort" />
+      <module name="ITTalents" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_7_Algorythms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_7_Algorythms.SelectionSort" />
+      <module name="ITTalents" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_7_Algorythms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1Task2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consulting010823.Test1Task2_1" />
+      <module name="ITTalents" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consulting010823.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Test1Task2_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="015aa46f-1d46-4d9e-922c-80c63f43e9d0" name="Changes" comment="" />
+      <created>1669987696071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669987696071</updated>
+      <workItem from="1669987697880" duration="4000" />
+      <workItem from="1669987883039" duration="27559000" />
+      <workItem from="1670179022804" duration="1574000" />
+      <workItem from="1670407211957" duration="24777000" />
+      <workItem from="1670436447505" duration="12516000" />
+      <workItem from="1670590235883" duration="759000" />
+      <workItem from="1670591040113" duration="13000" />
+      <workItem from="1670591872384" duration="34408000" />
+      <workItem from="1670838226225" duration="17624000" />
+      <workItem from="1670875103402" duration="484000" />
+      <workItem from="1670916338247" duration="13596000" />
+      <workItem from="1670946274640" duration="47471000" />
+      <workItem from="1671089120005" duration="5338000" />
+      <workItem from="1671111104349" duration="57200000" />
+      <workItem from="1671467795887" duration="2504000" />
+      <workItem from="1671470370518" duration="341000" />
+      <workItem from="1671472406411" duration="7000" />
+      <workItem from="1671473499249" duration="560000" />
+      <workItem from="1671474145578" duration="40222000" />
+      <workItem from="1672038691285" duration="23563000" />
+      <workItem from="1672143944082" duration="5247000" />
+      <workItem from="1672480367729" duration="271000" />
+      <workItem from="1672480673305" duration="8449000" />
+      <workItem from="1672577462684" duration="9399000" />
+      <workItem from="1672834124971" duration="3851000" />
+      <workItem from="1672903585392" duration="11520000" />
+      <workItem from="1673183375320" duration="20079000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework_1/Task_8.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework_1/Task_14.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework_2/Task_20.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson_4_Arrays2D/Task7.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/consulting010823/Test1Task2_1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

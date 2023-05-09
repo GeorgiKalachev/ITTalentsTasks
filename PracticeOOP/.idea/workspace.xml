@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0173be1-f4ee-49a4-aacf-88a05d16dc18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticeOOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/IElectronicDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/INotepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/pads/ElectronicSecureNotepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/pads/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/pads/SecuredNotePad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework17/pads/SimpleNotepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/Park.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/attractions/Atraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/attractions/Extreme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/attractions/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/AirBeast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Beast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Devil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Dwarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/EarthBeast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Griffon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Kraken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/Rusalka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/beasts/WaterBeast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/clients/Adult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/clients/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/clients/Kid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskTest2/clients/Old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kidsGarden/sss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/BasicArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/BasicBoots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/BasicGloves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/BasicHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/BasicPants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/Gloves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/Pants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/ZeusArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/ZeusBoots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/ZeusGloves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/ZeusHead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/ZeusPants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/shields/BasicShield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/shields/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/shields/ShieldOfZeus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/weapons/Escalibur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/weapons/Miolnir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/weapons/Mk4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/items/weapons/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/places/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lamqtaSpaska/places/Tavern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/CakeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/KidsCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/Special.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/StandartCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/SweetShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/WeddingCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/persons/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/persons/Deliver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/cakesTest2/cakes/persons/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/instruments/Duhov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/instruments/Elektronen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/instruments/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/instruments/Klavishen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/instruments/Strunen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/musiciansTest2/musicInstrumentsTest2/instruments/Udaren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/IReaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/Mirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/PoisonedApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/characters/DarkKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/characters/Dwarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/characters/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/characters/Prince.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/characters/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/characters/Snowhite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/places/Castle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/places/DwarfsHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/places/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/places/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowWhiteHomework/places/PrinceCastle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamsCollections/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamsCollections/Present.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/dokumentsTask/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/dokumentsTask/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/dokumentsTask/Shkaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/Biuletina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/Komisiq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Candidat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Glasopodavatel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Mutra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Neuk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Politic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Showmen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Sreden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test2/prezidenti/candidats/Zamojen.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/kidsGarden/Main.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2KibLEs0Cv7X9NS9W2K9uaAZlZm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/IdeaProjects/PracticeOOP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="musiciansTest2" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TaskTest2.Demo">
+    <configuration name="TaskTest2.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaskTest2.Demo" />
+      <module name="PracticeOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TaskTest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2.dokumentsTask.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.dokumentsTask.Demo" />
+      <module name="PracticeOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.dokumentsTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2.farm.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.farm.Demo" />
+      <module name="PracticeOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.farm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2.prezidentKrasi.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.prezidentKrasi.Demo" />
+      <module name="PracticeOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.prezidentKrasi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2.prezidenti.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.prezidenti.Demo" />
+      <module name="PracticeOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.prezidenti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TaskTest2.Demo" />
+        <item itemvalue="Application.test2.farm.Demo" />
+        <item itemvalue="Application.test2.prezidentKrasi.Demo" />
+        <item itemvalue="Application.test2.prezidenti.Demo" />
+        <item itemvalue="Application.test2.dokumentsTask.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0173be1-f4ee-49a4-aacf-88a05d16dc18" name="Changes" comment="" />
+      <created>1674460298014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674460298014</updated>
+      <workItem from="1674460299376" duration="628000" />
+      <workItem from="1674564673320" duration="17445000" />
+      <workItem from="1674588464613" duration="2532000" />
+      <workItem from="1674631962876" duration="1380000" />
+      <workItem from="1674681335768" duration="1160000" />
+      <workItem from="1674718056455" duration="608000" />
+      <workItem from="1674839210472" duration="7196000" />
+      <workItem from="1674978647799" duration="17881000" />
+      <workItem from="1675002949909" duration="14013000" />
+      <workItem from="1675018768714" duration="12220000" />
+      <workItem from="1675083595198" duration="21733000" />
+      <workItem from="1675164565231" duration="21632000" />
+      <workItem from="1675204283658" duration="1050000" />
+      <workItem from="1675267114407" duration="15133000" />
+      <workItem from="1675507809345" duration="24205000" />
+      <workItem from="1675761576725" duration="3734000" />
+      <workItem from="1675772419296" duration="21739000" />
+      <workItem from="1676198455846" duration="25037000" />
+      <workItem from="1676327858215" duration="25290000" />
+      <workItem from="1676540980801" duration="50695000" />
+      <workItem from="1676899870259" duration="25839000" />
+      <workItem from="1678282012817" duration="725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
