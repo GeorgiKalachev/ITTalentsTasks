@@ -1,0 +1,352 @@
+-- 1
+SELECT AVG(salary) 'avg salary'
+FROM employees;
+
+-- 2
+SELECT COUNT(*)
+FROM employees
+WHERE department_id = 80;
+
+SELECT e.first_name AS 'All from Sales'
+FROM employees e
+JOIN departments d
+ON e.department_id = d.department_id
+WHERE d.department_name = 'Sales';
+
+-- 3 Write a SQL query to find the number of all locations where the company has an
+-- office 
+
+SELECT *
+FROM departments;
+
+SELECT d.department_name, l.city
+FROM departments d
+JOIN locations l
+ON d.location_id = l.location_id;
+
+SELECT COUNT(DISTINCT l.location_id) AS num_locations
+FROM departments d
+JOIN locations l 
+ON d.location_id = l.location_id;
+
+-- 4 Write a SQL query to find the number of all departments that has manager.
+SELECT COUNT(DISTINCT d.department_id) AS 'Departments with managers'
+FROM departments d
+WHERE manager_id IS NOT NULL;
+
+-- 5. Write a SQL query to find the number of all departments that has no manager
+SELECT COUNT(DISTINCT d.department_id) AS 'Departments with NO managers'
+FROM departments d
+WHERE manager_id IS NULL;
+
+-- 6 Write a SQL query to find all departments' names and the average salary for each of them.
+SELECT d.department_name AS dep_name,
+       ROUND(AVG(e.salary), 2) AS avg_salary
+FROM departments d
+LEFT JOIN employees e 
+ON d.department_id = e.department_id
+GROUP BY d.department_name;
+
+SELECT d.department_name AS dep_name,
+       COALESCE(ROUND(AVG(e.salary), 2), 'no salaries') AS avg_salary
+FROM departments d
+LEFT JOIN employees e ON d.department_id = e.department_id
+GROUP BY d.department_name;
+
+-- 7. Write a SQL query to find the count of all employees in each department. Display the
+-- name, location and number of employees for each department.
+SELECT d.department_name AS dep_name,
+	l.city,
+    COUNT(DISTINCT e.employee_id) AS num_employees
+FROM departments d
+JOIN locations l
+ON d.location_id = l.location_id
+JOIN employees e
+ON e.department_id = d.department_id
+GROUP BY d.department_name, l.city;
+
+
+-- 8. Write a SQL query to find for each department and for each manager the count of all
+-- corresponding employees.
+SELECT d.department_name AS dep_name,
+       CONCAT(m.first_name, ' ', m.last_name) AS manager_name,
+       COUNT(DISTINCT e.employee_id) AS num_employees
+FROM departments d
+JOIN employees e ON e.department_id = d.department_id
+JOIN employees m ON m.employee_id = e.manager_id
+GROUP BY d.department_name, m.employee_id;
+
+
+-- 9 Write a SQL query to find all managers that have exactly 5 employees. Display their
+-- names and the name and location of their department.
+
+SELECT CONCAT(m.first_name, ' ', m.last_name) AS manager_name,
+		l.city AS location,
+        d.department_name AS department,
+       COUNT(DISTINCT e.employee_id) AS num_employees
+FROM employees m
+JOIN employees e ON m.employee_id = e.manager_id
+JOIN departments d ON e.department_id = d.department_id
+JOIN locations l ON d.location_id = l.location_id
+GROUP BY l.city, d.department_name, m.employee_id
+HAVING COUNT(DISTINCT e.employee_id) = 5;
+
+-- 10 Write a SQL query to find the total number of employees for each region.
+
+SELECT r.region_name,
+	COUNT(DISTINCT e.employee_id) AS num_employees
+FROM regions r
+JOIN countries c ON r.region_id = c.region_id
+JOIN locations l ON c.country_id = l.country_id
+JOIN departments d ON l.location_id = d.location_id
+JOIN employees e ON d.department_id = e.department_id
+GROUP BY r.region_name;
+
+-- 11 Write a SQL query to find for each department and for each job title the
+-- total number of employees.
+
+SELECT d.department_name,
+       j.job_title,
+       COUNT(DISTINCT e.employee_id) AS num_employees
+FROM departments d
+JOIN employees e ON d.department_id = e.department_id
+JOIN jobs j ON e.job_id = j.job_id
+GROUP BY d.department_name, j.job_title
+ORDER BY num_employees DESC;
+
+/*12. Write a SQL query to find the names and salaries of the employees that
+take the minimal salary in the company. Use nested SELECT statement.*/
+
+SELECT first_name, last_name, salary
+FROM employees
+WHERE salary = (
+    SELECT MIN(salary)
+    FROM employees
+);
+
+/* 13. Write a SQL query to find the names and salaries of the employees that
+get a salary that is up to 10% higher than the minimal salary for the company.*/
+SELECT e.first_name, e.last_name, e.salary
+FROM employees e
+JOIN (
+    SELECT MIN(salary) AS min_salary
+    FROM employees
+) m
+WHERE e.salary <= m.min_salary * 1.1;
+SELECT salary
+FROM employees;
+/*14. Write a SQL that displays all departments and the highest salary for each
+department along with the name of the employee that takes it. If multiple employees in
+the same department have highest salary, display the first of them.*/
+SELECT d.department_name, MAX(e.salary) AS highest_salary, 
+       SUBSTRING_INDEX(GROUP_CONCAT(CONCAT(e.first_name, ' ', e.last_name) ORDER BY e.employee_id ASC SEPARATOR ', '), ',', 1) AS employee_name
+FROM departments d
+JOIN employees e ON d.department_id = e.department_id
+WHERE e.salary = (
+    SELECT MAX(salary)
+    FROM employees
+    WHERE department_id = e.department_id
+)
+GROUP BY d.department_name;
+
+
+/*15. Write a SQL query to find the names of all employees whose last name is
+exactly 5 characters long.*/
+SELECT e.first_name,
+		e.last_name
+FROM employees e
+WHERE LENGTH(last_name) = 5;
+
+
+
+/*16. Write a SQL query to find the names of all employees whose first name
+and last name start with the same letter. */
+SELECT CONCAT(first_name, ' ', last_name) AS employee_name
+FROM employees
+WHERE LEFT(first_name, 1) = LEFT(last_name, 1);
+
+/*17Display all departments names and their manager's name. For
+departments without manager display "(No manager)". */
+
+SELECT d.department_name,
+       CASE WHEN e.employee_id IS NULL THEN '(No manager)'
+            ELSE CONCAT(e.first_name, ' ', e.last_name) END AS manager_name
+FROM departments d
+LEFT JOIN employees e ON d.manager_id = e.employee_id;
+
+
+/* 18 Display all employees along with their number of directly managed
+people. For employees not managing anybody display "Just and employee". For
+employees managing only 1 employee display "Junior manager". */
+
+
+
+/*19. Write a SQL query to print the current date and time in the format "
+hour:minutes:seconds day-month-year". Display also the date coming after a week.*/
+
+SELECT CONCAT(DATE_FORMAT(NOW(), '%H:%i:%s %d-%m-%Y'), ' - ', DATE_FORMAT(DATE_ADD(NOW(), INTERVAL 1 WEEK), '%d-%m-%Y')) AS date_time_and_next_week_date;
+
+/* 20Write a SQL statement to create a table USERS. Users should have
+username, password, full name and last login time. Choose appropriate data types for
+the fields of the table. Define a primary key column with a primary key constraint.
+Define a trigger to automatically fill the full name column value before inserting a
+record.*/
+CREATE TABLE USERS (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    full_name VARCHAR(100),
+    last_login_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+/* 21. Write a SQL statement to create a view that displays the users from the
+USERS table that have been in the system today. Test if the view works correctly. */
+CREATE VIEW todays_users AS
+SELECT username, full_name, last_login_time
+FROM USERS
+WHERE DATE(last_login_time) = CURDATE();
+
+/* 22. Write a SQL statement to create a table GROUPS. Groups should have
+unique name (use unique constraint). */
+CREATE TABLE groupss (
+    group_id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    PRIMARY KEY (group_id),
+    UNIQUE KEY (name)
+);
+
+/*Write a SQL statement to add a column GROUP_ID to the table USERS.
+Fill some data in this new column and as well in the GROUPS table. Write a SQL
+statement to add a foreign key constraint between tables USERS and GROUPS.*/
+
+ALTER TABLE USERS ADD GROUP_ID INT;
+
+UPDATE users SET GROUP_ID = 1 WHERE username = 'user1';
+UPDATE users SET GROUP_ID = 2 WHERE username = 'user2';
+INSERT INTO groupss (name) VALUES ('Group A');
+INSERT INTO groupss (name) VALUES ('Group B');
+
+ALTER TABLE USERS ADD CONSTRAINT FK_USERS_GROUP_ID
+FOREIGN KEY (GROUP_ID) REFERENCES groupss(ID);
+
+/*24. Write SQL statements to insert several records in the USERS and
+GROUPS tables.*/
+INSERT INTO USERS (username, password, full_name, last_login_time, group_id) 
+VALUES ('user1', 'password1', 'John Smith', '2023-03-22 10:00:00', 1);
+
+INSERT INTO USERS (username, password, full_name, last_login_time, group_id) 
+VALUES ('user2', 'password2', 'Jane Doe', '2023-03-22 12:00:00', 2);
+
+INSERT INTO USERS (username, password, full_name, last_login_time, group_id) 
+VALUES ('user3', 'password3', 'Bob Johnson', '2023-03-22 15:30:00', 1);
+
+INSERT INTO groupss (name) VALUES ('Admin');
+INSERT INTO groupss (name) VALUES ('User');
+INSERT INTO groupss (name) VALUES ('Guest');
+
+
+/*25. Write SQL statements to insert in the USERS table the names of all
+employees from the employees table. Combine the first and last names as a full name.
+For user name use the email column from employees. Use blank password.
+*/
+INSERT INTO USERS (username, password, full_name, last_login_time)
+SELECT email, '', CONCAT(first_name, ' ', last_name), NOW() FROM employees;
+
+
+/*26. Run the above 10 times to generate enough testing data for the USERS
+table.*/
+
+
+
+/*27 Write a SQL statement that changes the password to NULL for all
+USERS that have not been in the system since 10.03.2006. Select table data to see the
+changes.*/
+UPDATE USERS
+SET password = NULL
+WHERE last_login_time < '2006-03-10';
+
+/*Write a SQL statement that deletes all users without passwords (NULL or
+empty password). Select table data to see the changes. */
+DELETE FROM USERS WHERE password IS NULL OR password = '';
+
+/*29. Write a SQL query to list all users whose username starts with 's' and the
+number of groups for each of them. */
+SELECT u.username, COUNT(g.name) AS group_count
+FROM USERS u
+LEFT JOIN groupss g ON u.group_id = g.group_id
+WHERE u.username LIKE 's%'
+GROUP BY u.username;
+
+/*30. Define table WORKHOURS to store work reports for each employee
+(date, task, hours, comments).*/
+
+CREATE TABLE WORKHOURS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    date DATE,
+    task VARCHAR(255),
+    hours DECIMAL(4,2),
+    comments VARCHAR(1024),
+    employee_id INT,
+    FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
+);
+
+/*Define foreign key between the tables WORKHOURS and EMPLOYEE.
+Add additional column in the employee table if needed.*/
+
+CREATE TABLE WORKHOURS (
+  workhour_id INT PRIMARY KEY AUTO_INCREMENT,
+  employee_id INT NOT NULL,
+  work_date DATE NOT NULL,
+  task VARCHAR(255) NOT NULL,
+  hours DECIMAL(5,2) NOT NULL,
+  comments VARCHAR(255),
+  CONSTRAINT fk_employee
+    FOREIGN KEY (employee_id)
+    REFERENCES employees(employee_id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+);
+
+/*32. Write several SQL statements to fill some data in the WORKHOURS
+table.*/
+INSERT INTO WORKHOURS (employee_id, date, task, hours, comments)
+VALUES (1, '2023-03-22', 'Coding', 8, 'Finished project on time');
+
+INSERT INTO WORKHOURS (employee_id, date, task, hours, comments)
+VALUES (1, '2023-03-21', 'Testing', 4, 'Identified and fixed multiple bugs'),
+       (2, '2023-03-22', 'Design', 6, 'Created mockups for new feature'),
+       (3, '2023-03-20', 'Documentation', 2, 'Updated user manual for new release');
+       
+
+INSERT INTO WORKHOURS (employee_id, date, task, hours, comments)
+SELECT employee_id, '2023-03-19', 'Research', 3, 'Investigated new technology'
+FROM EMPLOYEE
+WHERE department = 'Research';
+
+/*33. Write a SQL query to find all the average work hours per week for each
+country.*/
+
+SELECT e.country, AVG(w.hours) AS avg_work_hours_per_week
+FROM employees e
+JOIN workhours w ON e.employee_id = w.employee_id
+GROUP BY e.country;
+
+/*34 Write a SQL query to find all the average work hours per week for each
+country */
+
+SELECT DISTINCT e.department_id, d.department_name
+FROM employees e
+JOIN departments d ON e.department_id = d.department_id
+JOIN workhours w ON e.employee_id = w.employee_id
+WHERE w.date >= DATE_SUB(CURDATE(), INTERVAL 1 WEEK)
+GROUP BY e.department_id
+HAVING SUM(w.hours) / COUNT(DISTINCT w.date) > 8
+
+/* 35*/
+SELECT e.first_name, e.location, e.department, e.country
+FROM employees e
+JOIN WORKHOURS w ON e.employee_id = w.employee_id
+WHERE w.date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+GROUP BY e.employee_id
+HAVING COUNT(DISTINCT w.date) >= 3 AND SUM(w.hours) > 24
